@@ -10,8 +10,8 @@ namespace Assignment3
         static void Main(string[] args)
         {
             Person person = new Person();
-            person.FirstName = "John";
-            person.LastName = "Doe";
+            person.FirstName = "Alse";
+            person.LastName = "Bob";
             person.PrintFullName();
         }
     }
@@ -29,3 +29,4 @@ namespace Assignment3
         }
     }
 }
+
