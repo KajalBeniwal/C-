@@ -27,8 +27,8 @@ class Program2
 {
     static void Main()
     {
-        Truck t = new Truck();
-        t.Make = "Tata";
+        Truck t = new Car();
+        t.Make = "Maruti";
         t.Model = "LPT 1613";
         t.Year = 2020;
         t.DisplayDetails();
@@ -40,3 +40,4 @@ class Program2
         b.DisplayDetails();
     }
 }
+
