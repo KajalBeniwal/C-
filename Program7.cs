@@ -58,7 +58,7 @@ class Program7
         Library lib = new Library();
 
         Book b1 = new Book() { Title = "C# Basics", Author = "John" };
-        Book b2 = new Book() { Title = "Java Programming", Author = "Smith" };
+        Book b2 = new Book() { Title = "DBMS", Author = "Smith" };
         lib.AddBook(b1);
         lib.AddBook(b2);
 
@@ -75,4 +75,5 @@ class Program7
         }
     }
 }
+
 
