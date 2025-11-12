@@ -56,20 +56,20 @@ class Program1
     static void Main()
     {
         UserProfile user1 = new UserProfile();
-        user1.SetUsername("Rahul");
+        user1.SetUsername("Kajal");
         user1.SetPassword("12345"); // invalid
         user1.SetPassword("123456"); // valid
-        user1.SetEmail("rahulgmail.com"); // invalid
-        user1.SetEmail("rahul@gmail.com"); // valid
+        user1.SetEmail("beniwalk662@gmail.com"); // invalid
+        user1.SetEmail("beniwalk662@gmail.com"); // valid
 
         Console.WriteLine("Username: " + user1.GetUsername());
         Console.WriteLine("Password: " + user1.GetPassword());
         Console.WriteLine("Email: " + user1.GetEmail());
 
         UserProfile user2 = new UserProfile();
-        user2.SetUsername("Amit");
+        user2.SetUsername("Khushi");
         user2.SetPassword("abcdef");
-        user2.SetEmail("amit@example.com");
+        user2.SetEmail("khusi@gmail.com");
 
         Console.WriteLine("\nUsername: " + user2.GetUsername());
         Console.WriteLine("Password: " + user2.GetPassword());
