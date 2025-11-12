@@ -10,13 +10,13 @@ namespace Assignment3
         static void Main(string[] args)
         {
             Employee emp = new Employee();
-            emp.name = "Rahul Agrawal";
-            emp.age = 21;
-            emp.salary = 70000.0f;
+            emp.name = "Chetna";
+            emp.age = 19;
+            emp.salary = 90000.0f;
             Employee emp1 = new Employee();
-            emp1.name = "Sagar Pandey";
-            emp1.age = 22;
-            emp1.salary = 60000.0f;
+            emp1.name = "Bobby";
+            emp1.age = 27;
+            emp1.salary = 120000.0f;
             emp.Display();
             emp1.Display();
 
@@ -43,3 +43,4 @@ namespace Assignment3
 
 
 }
+
