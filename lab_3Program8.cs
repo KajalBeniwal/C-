@@ -9,8 +9,8 @@ namespace Assignment3
     {
         static void Main(string[] args)
         {
-            Animal dog = new Dog("Buddy", 3);
-            Animal cat = new Cat("Whiskers", 2);
+            Animal dog = new Dog("Tommy", 3);
+            Animal cat = new Cat("Sweety", 2);
             dog.MakeSound();
             cat.MakeSound();
         }
@@ -42,4 +42,5 @@ namespace Assignment3
             Console.WriteLine(Name + " says: Meow Meow!");
         }
     }
+
 }
