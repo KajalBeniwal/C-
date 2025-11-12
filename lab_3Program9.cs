@@ -29,11 +29,6 @@ namespace Assignment3
     {
         // Car specific implementations can go here
     }
-    // The following class will cause a compile-time error because Car is sealed
-    /*
-    public class SportsCar : Car
-    {
-        // This will not compile
-    }
-    */
+   
+
 }
